@@ -27,6 +27,10 @@ h5 {
 h6 {
     font-size: 1rem;
 }
+
+p {
+    font-size: 1.125rem;
+}
 #all {
     background-image: url("/assets/images/binary-fundo.jpeg");
     background-size: cover;
@@ -73,6 +77,12 @@ header .logo a {
     color: #A5D7E8;
     text-decoration: none;
 }
+
+main, footer {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 
 #home-main {
     height: calc(100vh - 10vh);
@@ -131,16 +141,188 @@ button {
     cursor: pointer;
 }
 
-main > #hero .cv-btn {
+main .cv-btn {
     background-color: #A5D7E8;
     border: none;
     color: #08071B;
     text-transform: uppercase;
 }
 
-main > #hero .proj-btn {
+main .proj-btn {
     border: 2px solid #A5D7E8;
     background-color: transparent;
     color: white;
     text-transform: uppercase;
+}
+
+/*** About page ***/
+#body-ab {
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#about-main {
+    display: grid;
+    height: 78.1vh;
+    box-sizing: border-box;
+    margin: auto;
+    place-items: center;
+}
+#about-content {
+    height: 60vh;
+    width: 75vw;
+    display: grid;
+    place-items: center;
+     grid-template-columns: 2fr 2fr;
+     gap: 2%;
+     box-sizing: border-box;
+}
+
+#about-content .ib-div{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-content .ib-div > img {
+    height: 80%;
+    width: 50%;
+}
+
+#about-content .ib-div > .buttons {
+    margin-top: 2%;
+}
+
+#about-content .content-div {
+    height: 80%;
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+#about-content .content-div h2, #about-content .content-div h3 {
+    line-height: 1.4;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+#about-content .content-div h3 {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+#about-content .content-div p {
+    line-height: 1.2;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+#about-content .content-div > .skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#about-content .content-div > .skills > .skill {
+    color: white;
+    background-color: #08071B;
+    border: 2px solid white;
+}
+
+
+footer {
+    height: 10vh;
+    background-color: #08071B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer  * {
+    color: #A5D7E8;
+}
+
+footer > #name-sitemap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+}
+
+footer > #name-sitemap .name {
+    border-right: 3px solid #A5D7E8;
+    height: 3rem;
+    width: 50%;
+}
+
+footer > #name-sitemap .name h2 {
+    font-weight: 100;
+}
+
+footer > #name-sitemap .sitemap {
+    padding-left: 10px;
+    width: 30px;
+}
+
+footer > #name-sitemap .sitemap ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer > #name-sitemap .sitemap ul li {
+    list-style: none;
+}
+
+footer > #name-sitemap .sitemap ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > #name-sitemap .sitemap ul li a:hover {
+    color: #A5D7E8;
+    transition: .3s;
+}
+
+footer > #name-sitemap .sitemap {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-left: 1%;
+}
+
+footer > #name-sitemap .sitemap > h6 {
+    letter-spacing: 3.5px;
+}
+
+footer .social-icons > .icons {
+    display: flex;
+    gap: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+
+footer .social-icons > .icons a {
+    text-decoration: none;
+}
+
+footer .social-icons > .icons a:hover {
+    scale: 1.5;
+    transition: .3s;
+}
+
+footer .social-icons p a {
+    text-decoration: none;
+
+}
+
+footer .social-icons p a:hover {
+    border-bottom: 1px solid white;
+    transition: 1s;
 }
