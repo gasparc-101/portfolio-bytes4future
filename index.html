@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="all">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Gaspar | Portfolio</title>
+
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <header>
-        
-        <nav>
+        <div class="logo">
             <a href="/index.html">{GC}</a>
+        </div>
+        <nav>
+            
             <a href="/index.html">Home</a>  
             <a href="/pages/about.html">About</a> 
             <a href="/pages/projects.html">Projects</a>
@@ -17,31 +21,46 @@
         </nav>
     </header>
     
-    <main>
-        <img src="/assets/images/GC.jpg" alt="gaspar profile" width="200px">
+    <main id="home-main">
 
-    <h1>
-        <span>
-            Hi, I'm
-        </span> Gaspar
-    </h1>
-    <h1>
-        <span>I am a </span>programmer
-    </h1>
+        <section id="hero">
+
+            <div class="img">
+
+            </div>
+
+        <h1>
+            <span>
+                Hi, I'm
+            </span> Gaspar <br>
+
+            <span>I am a </span>programmer
+        </h1>
+
+        <hr class="thick-line">
 
 
-    <a href="https://drive.google.com/file/d/1P5grgETdNOseOhwqS87SZWxoDirRjRZD/view" target="_blank">
+        <a href="https://drive.google.com/file/d/1P5grgETdNOseOhwqS87SZWxoDirRjRZD/view" target="_blank">
 
-        <button>
-            Download CV
-        </button>
-    </a>
+            <div class="buttons">
 
-    <a href="/pages/projects.html">
-        <button>
-            Projects
-        </button>
-    </a>
-    </main>
+
+                <button class="cv-btn">
+                    Download CV
+                </button>
+            </a>
+    
+            <a href="/pages/projects.html">
+                <button class="proj-btn">
+                    PROJECTS
+                </button>
+            </a>
+
+            </div>
+        </main>
+
+
+        </section>
+
 </body>
 </html>
