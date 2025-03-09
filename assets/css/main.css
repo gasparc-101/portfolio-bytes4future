@@ -220,6 +220,10 @@ margin-bottom: 30px;
     margin-bottom: 10px;
 }
 
+#about-content .content-div span {
+    color: #A5D7E8;
+}
+
 #about-content .content-div > .skills {
     width: 100%;
     display: flex;
@@ -233,9 +237,11 @@ margin-bottom: 30px;
     border: 2px solid white;
 }
 
+/*** Footer ***/
 
 footer {
-    height: 10vh;
+    margin-top: 1%;
+    height: 9vh;
     background-color: #08071B;
     display: flex;
     justify-content: space-between;
