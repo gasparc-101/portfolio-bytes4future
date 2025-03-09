@@ -329,6 +329,98 @@ gap: 2rem;
 }
 
 
+/****Contact Page****/
+
+#contact-main {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 8rem;
+    height: 60vh;
+}
+
+
+#contact-main h2 {
+    margin-bottom: 30px;
+}
+
+
+#contact-main > form {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+}
+
+#contact-main > form label {
+    color: #A5D7E8;
+    font-size: 1.5rem;
+}
+
+#contact-main > form .full-name,  #contact-main > form .email-subject{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#contact-main > form .full-name > *,  #contact-main > form .email-subject > *{
+    width: 30%;
+}
+
+#contact-main > form .email-subject {
+    margin-top: 40px;
+
+}
+
+
+#contact-main > form .email-subject, #contact-main > form .full-name {
+    width: 100%;
+}
+
+
+#contact-main > form input {
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #A5D7E8;
+    width: 100%;
+}
+
+#contact-main > form .message{
+    margin-top: 40px;
+}
+
+#contact-main > form textarea {
+    margin-top: 2rem;
+    background-color: transparent;
+    border: none;
+    height: 10rem;
+    border-bottom: 2px solid #A5D7E8;
+    margin-bottom: 3%;
+}
+
+#contact-main > form textarea, #contact-main > form input {
+    outline: none;
+    font-size: .9rem;
+    resize: none;
+}
+
+#contact-main > form button {
+    color: white;
+    background-color: #08071B;
+    border: 2px solid white;
+    position: relative;
+    left: calc(100% - 135px);
+}
+
+#contact-main > form button:hover {
+    background-color: #A5D7E8;
+    color: #08071B;
+    transition: .3s;
+}
 
 
 
@@ -429,7 +521,7 @@ footer .social-icons p a:hover {
     transition: 1s;
 }
 
-#body-ab > footer {
+#body-ab > footer, #cont-body > footer {
     position: absolute;
     bottom: 0;
     width: 96%;
