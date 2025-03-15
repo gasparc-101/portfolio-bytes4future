@@ -161,6 +161,29 @@ main .proj-btn {
     text-transform: uppercase;
 }
 
+.next-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    position: relative;
+    left: calc(100vw - 4%);
+    font-size: 1.2rem;
+    
+}
+
+.next-btn a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.next-btn i {
+    color: red;
+    font-weight: 999;
+    font-size: 2rem;
+    
+}
+
+
 /*** About page ***/
 #body-ab {
     height: 100vh;
