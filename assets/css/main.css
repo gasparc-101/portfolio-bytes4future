@@ -292,9 +292,14 @@ margin-bottom: 30px;
 #proj-main {
     position: relative;
     top: 9rem;
-    display: grid;
-    place-items: center;
     margin-bottom: 15%;
+}
+
+#proj-main #projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #proj-main > h2 {
@@ -328,10 +333,16 @@ margin-bottom: 30px;
 }
 
 #proj-main button {
-    background-color: #08071B;
-    border: 2px solid white;
+    background-color: transparent;
+    border: 2px solid #A5D7E8;
     position: relative;
     top: 25%;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #A5D7E8;
+    font-weight: bolder;
 }
 
 #proj-main button:hover{
@@ -346,6 +357,7 @@ justify-content: space-between;
 margin-bottom: 5rem;
 box-sizing: border-box;
 height: fit-content;
+width: 80%;
 gap: 2rem;
 }
 
@@ -370,6 +382,7 @@ gap: 2rem;
     position: relative;
     left: calc(100% - 130px);
 }
+
 
 
 /****Contact Page****/
