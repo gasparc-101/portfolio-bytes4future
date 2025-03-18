@@ -478,6 +478,9 @@ gap: 2rem;
 }
 
 #contact-main > form button {
+    height: 35px;
+    width: 135px;
+    border-radius: 30px;
     color: white;
     background-color: #08071B;
     border: 2px solid white;
