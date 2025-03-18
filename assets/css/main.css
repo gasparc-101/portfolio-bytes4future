@@ -327,6 +327,7 @@ margin-bottom: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10vh;
 }
 
 #proj-main > h2 {
@@ -368,10 +369,8 @@ margin-bottom: 30px;
 }
 #proj-main button {
     background-color: transparent;
-    border: 2px solid #A5D7E8;
-    position: relative;
-    top: 25%;
-    width: 120px;
+    border: 1px solid #A5D7E8;
+    width: 145px;
     height: 40px;
     border-radius: 30px;
     cursor: pointer;
@@ -388,7 +387,6 @@ margin-bottom: 30px;
 #proj-main .project {
 display: flex;
 justify-content: space-between;
-margin-bottom: 5rem;
 box-sizing: border-box;
 height: fit-content;
 width: 80%;
@@ -412,9 +410,9 @@ gap: 2rem;
     border-radius: 5px;
 }
 
-#proj-main .project-2 a {
+#proj-main .project-2 .p-r-buttons {
     position: relative;
-    left: calc(100% - 130px);
+    left: calc(63.5%);
 }
 
 
