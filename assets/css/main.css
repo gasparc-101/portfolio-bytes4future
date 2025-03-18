@@ -522,8 +522,11 @@ footer > #name-sitemap {
 
 footer > #name-sitemap .name {
     border-right: 3px solid #A5D7E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 3rem;
-    width: 50%;
+    width: 40%;
 }
 
 footer > #name-sitemap .name h2 {
@@ -564,7 +567,7 @@ footer > #name-sitemap .sitemap {
 }
 
 footer > #name-sitemap .sitemap > h6 {
-    letter-spacing: 3.5px;
+    letter-spacing: 2.5px;
 }
 
 footer .social-icons > .icons {
