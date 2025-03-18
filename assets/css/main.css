@@ -147,7 +147,7 @@ main > #hero > .buttons button {
     cursor: pointer;
 }
 
-main .cv-btn {
+main .cv-btn{
     background-color: #A5D7E8;
     border: none;
     color: #08071B;
@@ -205,30 +205,48 @@ main .proj-btn {
      grid-template-columns: 2fr 2fr;
      gap: 2%;
      box-sizing: border-box;
+     position: relative;
+     top: 10%;
 }
 
 #about-content .ib-div{
-    height: 80%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #about-content .ib-div > img {
-    height: 80%;
-    width: 50%;
+   height: 80%;
+   width: 55%;
 }
 
 #about-content .ib-div > .buttons {
-    margin-top: 2%;
+    display: flex;
+    gap: 3rem;
+}
+
+#about-content .ib-div > .buttons button {
+    height: 45px;
+    width: 145px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.proj-btn:hover{
+    color: #08071B;
+    background-color: #A5D7E8;
+    transition: .3s;
 }
 
 #about-content .content-div {
-    height: 80%;
-    width: 100%;
     padding: 2%;
     box-sizing: border-box;
+}
+
+#about-content .content-div, #about-content .ib-div{
+   height: 90%;
+    width: 100%;
+ 
 }
 
 #about-content .content-div h2, #about-content .content-div h3 {
@@ -243,7 +261,7 @@ margin-bottom: 30px;
 }
 
 #about-content .content-div p {
-    line-height: 1.2;
+    line-height: 1.5;
     text-align: justify;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -264,6 +282,9 @@ margin-bottom: 30px;
     color: white;
     background-color: #08071B;
     border: 2px solid white;
+    height: 36px;
+    width: 120px;
+    border-radius: 50px;
 }
 
 /*** Projects page ***/
