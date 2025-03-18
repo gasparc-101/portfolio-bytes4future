@@ -300,7 +300,7 @@ margin-bottom: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10vh;
+    gap: 15vh;
 }
 
 #proj-main > h2 {
@@ -331,13 +331,14 @@ margin-bottom: 30px;
     letter-spacing: 1px;
     line-height: 1.4;
     margin-bottom: 15px;
+    font-weight: lighter;
 }
 
 #proj-main .p-r-buttons{
     display: flex;
     gap: 2rem;
     position: relative;
-    top: 20%;
+    top: 16.5%;
     width: 200px;
 }
 #proj-main button {
@@ -361,8 +362,8 @@ margin-bottom: 30px;
 display: flex;
 justify-content: space-between;
 box-sizing: border-box;
-height: fit-content;
-width: 80%;
+height: 300px;
+width: 75%;
 gap: 2rem;
 }
 
@@ -385,7 +386,12 @@ gap: 2rem;
 
 #proj-main .project-2 .p-r-buttons {
     position: relative;
-    left: calc(63.5%);
+    left: calc(58%);
+}
+
+#proj-main .project .desc {
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 
