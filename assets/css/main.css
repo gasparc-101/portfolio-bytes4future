@@ -4,6 +4,33 @@
    color: white;
    font-family: "Azaret Mono", monospace;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #08071B;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #A5D7E8; 
+    border-radius: 5px;
+    min-height: 50px;
+    max-height: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #99e0f7; 
+    transition: 1s ease-in-out;
+  }
+
 body {
     overflow-x: hidden;
     z-index: -1;
@@ -336,10 +363,10 @@ margin-bottom: 30px;
 
 #proj-main .p-r-buttons{
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
     position: relative;
     top: 16.5%;
-    width: 200px;
+    width: 310px;
 }
 #proj-main button {
     background-color: transparent;
@@ -386,7 +413,8 @@ gap: 2rem;
 
 #proj-main .project-2 .p-r-buttons {
     position: relative;
-    left: calc(58%);
+    left:calc(100% - 300px - 3%);
+    margin-right: 200px;
 }
 
 #proj-main .project .desc {
