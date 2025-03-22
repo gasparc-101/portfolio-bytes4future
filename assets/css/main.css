@@ -4,33 +4,6 @@
    color: white;
    font-family: "Azaret Mono", monospace;
 }
-
-/* width */
-::-webkit-scrollbar {
-    width: 8px;
-    background-color: #08071B;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background: transparent;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #A5D7E8; 
-    border-radius: 5px;
-    min-height: 50px;
-    max-height: 100px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #99e0f7; 
-    transition: 1s ease-in-out;
-  }
-
 body {
     overflow-x: hidden;
     z-index: -1;
@@ -327,7 +300,6 @@ margin-bottom: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15vh;
 }
 
 #proj-main > h2 {
@@ -356,22 +328,16 @@ margin-bottom: 30px;
 
 #proj-main  p {
     letter-spacing: 1px;
-    line-height: 1.4;
+    line-height: 1.2;
     margin-bottom: 15px;
-    font-weight: lighter;
 }
 
-#proj-main .p-r-buttons{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 16.5%;
-    width: 310px;
-}
 #proj-main button {
     background-color: transparent;
-    border: 1px solid #A5D7E8;
-    width: 145px;
+    border: 2px solid #A5D7E8;
+    position: relative;
+    top: 25%;
+    width: 120px;
     height: 40px;
     border-radius: 30px;
     cursor: pointer;
@@ -388,9 +354,10 @@ margin-bottom: 30px;
 #proj-main .project {
 display: flex;
 justify-content: space-between;
+margin-bottom: 5rem;
 box-sizing: border-box;
-height: 300px;
-width: 75%;
+height: fit-content;
+width: 80%;
 gap: 2rem;
 }
 
@@ -411,15 +378,9 @@ gap: 2rem;
     border-radius: 5px;
 }
 
-#proj-main .project-2 .p-r-buttons {
+#proj-main .project-2 a {
     position: relative;
-    left:calc(100% - 300px - 3%);
-    margin-right: 200px;
-}
-
-#proj-main .project .desc {
-    box-sizing: border-box;
-    padding: 10px;
+    left: calc(100% - 130px);
 }
 
 
@@ -506,13 +467,13 @@ gap: 2rem;
 }
 
 #contact-main > form button {
-    height: 35px;
-    width: 135px;
-    border-radius: 30px;
     color: white;
     background-color: #08071B;
     border: 2px solid white;
     position: relative;
+    width: 135px;
+    height: 35px;
+    border-radius: 35px;
     left: calc(100% - 135px);
 }
 
@@ -550,11 +511,8 @@ footer > #name-sitemap {
 
 footer > #name-sitemap .name {
     border-right: 3px solid #A5D7E8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 3rem;
-    width: 40%;
+    width: 50%;
 }
 
 footer > #name-sitemap .name h2 {
@@ -595,7 +553,7 @@ footer > #name-sitemap .sitemap {
 }
 
 footer > #name-sitemap .sitemap > h6 {
-    letter-spacing: 2.5px;
+    letter-spacing: 3.5px;
 }
 
 footer .social-icons > .icons {
