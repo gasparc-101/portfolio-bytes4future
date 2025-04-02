@@ -32,32 +32,25 @@
     </header>
 
     <main id="contact-main">
-        <h2>
-            Let's have a chat!
-        </h2>
 
         <form action="submit">
+            <h2>
+                Let's have a chat!
+            </h2>
 
             <div class="full-name">
                 <div class="first-name">
 
                     <p>
-                        <label for="fname">First name*</label>
-                    </p>
-                    
-                    <p>
-                        <input type="text" id="fname" name="first name" required>
+                        <input type="text" id="fname" name="first name" required placeholder="First Name*">
                     </p>
                    
                 </div>
 
                 <div class="last-name">
-                    <p>
-                        <label for="lname">Last name*</label> 
-                    </p>
                     
                     <p>
-                        <input type="text" id="lname" name="last name" required>
+                        <input type="text" id="lname" name="last name" required placeholder="Last name*">
                     </p>
         
                 </div>
@@ -65,34 +58,22 @@
 
             <div class="email-subject">
                 <div class="email">
-                    <p>
-                        <label for="email">Email*</label>
-                    </p>
 
                     <p>
-                        <input type="email" name="email" id="email" required>
+                        <input type="email" name="email" id="email" required placeholder="Email*">
                     </p>
                     
                 </div>
 
                 <div class="subject">
 
-                    <p>
-                        <label for="subject">Subject*</label>
-                    </p>
-
                      <p>
-                        <input type="text" name="subject" id="subject" required>
+                        <input type="text" name="subject" id="subject" required placeholder="Subject*">
                      </p>
-                    
                 </div>
             </div>
-
-            <p class="message">
-                <label for="message">Message*</label>
-            </p>
             
-            <textarea name="message" id="message" required></textarea>
+            <textarea name="message" id="message" required placeholder="Message*"></textarea>
 
             <button type="submit">Send</button>
         </form>

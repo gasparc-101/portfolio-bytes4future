@@ -431,24 +431,33 @@ gap: 2rem;
 
 
 #contact-main h2 {
-    margin-bottom: 30px;
     letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 
+#contact-main > form label {
+    display: none;
+}
+
 #contact-main > form {
-    width: 50%;
+    width: 45.5%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    padding: 10px;
+
 
 }
 
-#contact-main > form label {
-    color: #A5D7E8;
-    font-size: 1.5rem;
+#contact-main > form ::placeholder {
+    color: hsl(195, 59%, 78%);
+    font-size: 1rem;
     letter-spacing:  1px;
 }
+
 
 #contact-main > form .full-name,  #contact-main > form .email-subject{
     display: flex;
@@ -457,11 +466,11 @@ gap: 2rem;
 }
 
 #contact-main > form .full-name > *,  #contact-main > form .email-subject > *{
-    width: 30%;
+    width: 40%;
 }
 
 #contact-main > form .email-subject {
-    margin-top: 40px;
+    margin-top: 2rem;
 
 }
 
@@ -472,41 +481,43 @@ gap: 2rem;
 
 
 #contact-main > form input {
-    height: 2rem;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid #A5D7E8;
+    padding: 10px 0;
+    border-bottom: 1px solid #A5D7E8;
     width: 100%;
+    color: #99e0f7;
 }
 
 #contact-main > form .message{
-    margin-top: 40px;
+    display: none;
 }
 
 #contact-main > form textarea {
     margin-top: 2rem;
     background-color: transparent;
     border: none;
-    height: 10rem;
-    border-bottom: 2px solid #A5D7E8;
-    margin-bottom: 3%;
+    height: 45%;
+    border-bottom: 1px solid #A5D7E8;
 }
 
 #contact-main > form textarea, #contact-main > form input {
     outline: none;
-    font-size: .9rem;
+    font-size: 1rem;
     resize: none;
+    color: #99e0f7;
 }
 
 #contact-main > form button {
     color: white;
-    background-color: #08071B;
-    border: 2px solid white;
+    background-color: transparent;
+    border: 1px solid #99e0f7;
     position: relative;
     width: 135px;
     height: 35px;
-    border-radius: 35px;
+    border-radius: 10px;
     left: calc(100% - 135px);
+    top: 5%;
 }
 
 #contact-main > form button:hover {
