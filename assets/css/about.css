@@ -1,0 +1,85 @@
+#body-ab {
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#about-main {
+    display: grid;
+    height: 78.1vh;
+    box-sizing: border-box;
+    margin: auto;
+    place-items: center;
+}
+#about-content {
+    height: 60vh;
+    width: 75vw;
+    display: grid;
+    place-items: center;
+     grid-template-columns: 2fr 2fr;
+     gap: 2%;
+     box-sizing: border-box;
+     position: relative;
+     top: 10%;
+}
+
+#about-content .ib-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-content .ib-div > img {
+   height: 80%;
+   width: 55%;
+}
+
+
+
+#about-content .content-div {
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+#about-content .content-div, #about-content .ib-div{
+   height: 90%;
+    width: 100%;
+ 
+}
+
+#about-content .content-div h2, #about-content .content-div h3 {
+    line-height: 1.4;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+#about-content .content-div h3 {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+#about-content .content-div p {
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+#about-content .content-div span {
+    color: #A5D7E8;
+}
+
+#about-content .content-div > .skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#about-content .content-div > .skills > .skill {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #A5D7E8;
+    height: 36px;
+    width: 120px;
+    border-radius: 50px;
+}
