@@ -1,6 +1,11 @@
+#home-link{
+    color: #99e0f7;
+}
+
 #home-main {
     height: calc(100vh - 10vh);
 }
+
 main > #hero {
     display: grid;
     place-items: center;
