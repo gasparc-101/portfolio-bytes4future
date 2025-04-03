@@ -122,78 +122,51 @@ main, footer {
 /*** Footer ***/
 
 footer {
+    padding: 10px 2%;
     margin-top: 1%;
-    height: 9vh;
-    background-color: #08071B;
+    height: 8vh;
+    background-color: #070716;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    box-sizing: border-box;
 }
 
 footer  * {
     color: #A5D7E8;
 }
-
-footer > #name-sitemap {
+footer > #general{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
-
+    width: 100%;
 }
-
-footer > #name-sitemap .name {
-    border-right: 3px solid #A5D7E8;
-    height: 3rem;
-    width: 50%;
-}
-
-footer > #name-sitemap .name h2 {
-    font-weight: 100;
-}
-
-footer > #name-sitemap .sitemap {
-    padding-left: 10px;
-    width: 30px;
-}
-
-footer > #name-sitemap .sitemap ul {
+footer > #general .sitemap ul {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-footer > #name-sitemap .sitemap ul li {
+footer > #general .sitemap ul li {
     list-style: none;
 }
 
-footer > #name-sitemap .sitemap ul li a {
+footer > #general .sitemap ul li a {
     text-decoration: none;
     color: white;
 }
 
-footer > #name-sitemap .sitemap ul li a:hover {
+footer > #general .sitemap ul li a:hover {
     color: #A5D7E8;
     transition: .3s;
 }
 
-footer > #name-sitemap .sitemap {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
-    margin-left: 1%;
-}
-
-footer > #name-sitemap .sitemap > h6 {
-    letter-spacing: 3.5px;
-}
-
 footer .social-icons > .icons {
     display: flex;
-    gap: 30px;
-    font-size: 1.2rem;
-    margin-bottom: 3px;
+    gap: 25px;
+    font-size: 1.5rem;
 }
 
 footer .social-icons > .icons a {
@@ -201,24 +174,19 @@ footer .social-icons > .icons a {
 }
 
 footer .social-icons > .icons a:hover {
-    scale: 1.5;
+    scale: 1.2;
     transition: .3s;
 }
 
-footer .social-icons p a {
+footer .social-icons a:hover {
     text-decoration: none;
-
-}
-
-footer .social-icons p a:hover {
-    border-bottom: 1px solid white;
     transition: 1s;
 }
 
 #body-ab > footer, #cont-body > footer {
     position: absolute;
     bottom: 0;
-    width: 96%;
+    width: 100%;
 }
 
 .buttons {
