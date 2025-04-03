@@ -68,7 +68,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    filter: contrast(1.05);
 }
 
 header {
